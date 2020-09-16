@@ -44,13 +44,13 @@ body.win::after {
   display: block;
 }
 
-/*.my_social {
+.my_social {
   position: absolute;
   top: 25px;
   left: 25px;
 }
 
-.my_social a {
+/*.my_social a {
   display: inline-block;
   height: 2.5em;
 }
