@@ -59,18 +59,12 @@ body.win::after {
   height: 1.5em;
 }
 
-/*
-
-
-
-
-
 div {
   border: 1px solid #fff;
   height: 2.5vh;
 }
 
-@media (min-width: 400px) {
+/*@media (min-width: 400px) {
   body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 8px;
