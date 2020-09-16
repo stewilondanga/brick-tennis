@@ -19,6 +19,17 @@ body {
   user-select: none;
 }
 
+body::before {
+  z-index: 100;
+  content: attr(data-lives);
+  position: absolute;
+  bottom: 24px;
+  right: 16px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 32px;
+  mix-blend-mode: difference;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -43,16 +54,6 @@ body {
 }
 
 
-body::before {
-  z-index: 100;
-  content: attr(data-lives);
-  position: absolute;
-  bottom: 24px;
-  right: 16px;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 32px;
-  mix-blend-mode: difference;
-}
 
 body::after {
   content: 'COOL';
