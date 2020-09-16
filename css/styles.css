@@ -40,6 +40,10 @@ body::after {
   font-size: 20vmin;
 }
 
+body.win::after {
+  display: block;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -67,9 +71,6 @@ body::after {
 
 
 
-body.win::after {
-  display: block;
-}
 
 div {
   border: 1px solid #fff;
