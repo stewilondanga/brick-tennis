@@ -46,7 +46,7 @@ body.win::after {
 
 .my_social {
   position: absolute;
-  top: 725px;
+  top: 525px;
   left: 25px;
 }
 
@@ -55,10 +55,11 @@ body.win::after {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
+/*
 
 
 
