@@ -64,12 +64,13 @@ div {
   height: 2.5vh;
 }
 
-/*@media (min-width: 400px) {
+@media (min-width: 400px) {
   body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 8px;
   }
-  div {
+
+  /*  div {
     height: 3.5vh;
   }
 }
