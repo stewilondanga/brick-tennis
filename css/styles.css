@@ -8,6 +8,17 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: .75vh;
+  padding: 8px;
+  font-family: 'Bungee Shade', cursive;
+  color: #fff;
+  user-select: none;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -31,16 +42,6 @@ html {
   height: 1.5em;
 }
 
-body {
-  background-color: #000;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: .75vh;
-  padding: 8px;
-  font-family: 'Bungee Shade', cursive;
-  color: #fff;
-  user-select: none;
-}
 
 body::before {
   z-index: 100;
